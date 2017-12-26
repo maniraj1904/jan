@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<grammar version="1.0" xmlLang="en-US" xmlns="http://www.w3.org/2001/06/grammar" tagFormat="swi-semantics/1.0" root="_ROOT_">
+    <meta name="swirec_compile_parser_with_weights" content="1"/>
+    <rule id="_ROOT_" scope="public"/>
+</grammar>
