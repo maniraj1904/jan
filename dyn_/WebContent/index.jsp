@@ -66,13 +66,34 @@
 					</div>
 				</div>
 				
-				<div>
-					<button type="button" onclick="alert('Add Option')">Add Option &#x2728;</button>
-					<button type="button" onclick="alert('remove Option')">Delete Option &#x274C;</button>
-				</div>
-				
 				<div class="tab">
 					<p id='in-topic'>Options</p>
+					<div>
+						<ul>
+						    <li><div>Level 1</div></li>
+						    <li><div>Level 1</div>
+						        <ul>
+						            <li><div>Level 2</div></li>
+						            <li><div>Level 2</div>
+						                <ul>
+						                    <li><div>Level 3</div></li>
+						                    <li><div>Level 3</div></li>
+						                </ul>
+						            </li>
+						        </ul>
+						    </li>
+						    <li><div>Level 1</div></li>
+						</ul>
+					</div>
+					<div>
+						<button type="button" onclick="alert('Add Option')">Add Option &#x2728;</button>
+						<button type="button" onclick="alert('remove Option')">Delete Option &#x274C;</button>
+					</div>
+				</div>
+				
+				
+				<div class="tab">
+					<p id='in-topic'>dm Properties</p>
 					<div class="tab-1">
 						<label for="meaning">SWI_meaning:</label>
 						<input type="text" id="meaning" name="meaning" class="input" placeholder="Return value (dm_root)">
